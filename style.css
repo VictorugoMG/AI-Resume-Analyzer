@@ -1,3 +1,21 @@
+@media screen {
+    
+}
+
+
+.topnav{
+    padding: 10px;
+}
+
+.title{
+    font-size: large;
+    font-weight: 100;
+}
+
+.sign_in{
+    margin-left: 0%;
+}
+
 .footer {
   position: fixed;
   left: 0;
