@@ -1,19 +1,68 @@
-@media screen {
-    
+.topnav{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f8f7f7;
+    min-height: 55px;
 }
 
-
-.topnav{
+.icon{
+    color: #1a3761;
     padding: 10px;
 }
 
 .title{
-    font-size: large;
-    font-weight: 100;
+    margin-right: auto;
+    align-content: center;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: -7px;
 }
 
-.sign_in{
-    margin-left: 0%;
+.sign_up{
+    margin-right: 14px;
+    width: 76px;
+    border-radius: 10px;
+    height: 47px;
+    background: #1a3761;
+    color: #fff;
+    border: 0 solid #bbb;
+    transition: all .2s ease-out;
+    cursor: pointer;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.sign_in:hover{
+    background: #6db2f7bd;
+    color: #142624;
+    text-decoration: none;
+}
+
+.front_text{
+    text-align: center;
+    padding-top:35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.front_title{
+    font-size: 50px;
+}
+
+.Optimization{
+    color:#1a3761;
+    font-size: 50px;
+    margin-top: auto;
+}
+
+.front_description{
+    color:gray;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 18px;
 }
 
 .footer {
