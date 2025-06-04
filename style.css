@@ -1,3 +1,4 @@
+
 .topnav{
     padding: 0px;
     display: flex;
@@ -35,17 +36,20 @@
     font-family: sans-serif;
 }
 
-.sign_in:hover{
+.sign_up:hover{
     background: #6db2f7bd;
     color: #142624;
     text-decoration: none;
 }
 
-.front_text{
+.front{
     text-align: center;
     padding-top:35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    background-color: #f4ffff ;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .front_title{
@@ -62,19 +66,42 @@
     color:gray;
     margin-left: 400px;
     margin-right: 400px;
-    font-size: 18px;
+    font-size: 1.13rem;
 }
 
+
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
   background-color: rgb(15 23 42);
   color: white;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Inter', sans-serif;
+  margin: 0px -8px -8px -8px;
 }
 
+.get_started{
+    border-radius: 10px;
+    height: 47px;
+    background: #1a3761;
+    color: #fff;
+    border: 0 solid #bbb;
+    transition: all .2s ease-out;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 18px;
+    margin-bottom: 88px;
+}
+
+.get_started:hover{
+    background: #6db2f7bd;
+    color: #142624;
+    text-decoration: none;
+}
