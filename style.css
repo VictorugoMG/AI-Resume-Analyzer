@@ -1,6 +1,14 @@
+@media (max-width: 768px) {
+    .features_container1,
+    .features_container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
 
 .topnav{
-    padding: 0px;
+    padding: 0px 0px 5px 0px;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #f8f7f7;
@@ -10,6 +18,11 @@
 .icon{
     color: #1a3761;
     padding: 10px;
+}
+
+.icon_bottom{
+    color: #1a3761;
+    margin-bottom: -12px;
 }
 
 .title{
@@ -42,31 +55,33 @@
     text-decoration: none;
 }
 
-.front{
+.front_section{
     text-align: center;
     padding-top:35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    background-color: #f4ffff ;
+    background-color: #f8fafc ;
     margin-left: -8px;
     margin-right: -8px;
 }
 
 .front_title{
-    font-size: 50px;
+    font-size: 3.12rem;
 }
 
 .Optimization{
     color:#1a3761;
-    font-size: 50px;
+    font-size: 3.12rem;
     margin-top: auto;
 }
 
-.front_description{
+.front_description, .bottom_description{
     color:gray;
-    margin-left: 400px;
-    margin-right: 400px;
     font-size: 1.13rem;
+    text-align: center;
+    padding: 0 20px;
+    max-width: 755px;
+    margin: 0 auto 40px auto;
 }
 
 
@@ -83,7 +98,7 @@
   margin: 0px -8px -8px -8px;
 }
 
-.get_started{
+.get_started, .start_anly{
     border-radius: 10px;
     height: 47px;
     background: #1a3761;
@@ -96,11 +111,71 @@
     font-size: 16px;
     padding-left: 16px;
     padding-right: 16px;
-    margin-top: 18px;
     margin-bottom: 88px;
 }
 
 .get_started:hover{
+    background: #6db2f7bd;
+    color: #142624;
+    text-decoration: none;
+}
+
+.top_title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+}
+
+.features{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.features_container1, .features_container2{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 20px;
+    margin: 0px auto;
+    max-width: 1100px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.feature_item{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 11px;
+    flex: 1 1 300px;
+    min-width: 250px;
+    box-sizing: border-box;
+    background-color: #f9f9ffa6;
+}
+
+.features_container2{
+    margin-bottom: 46px;
+}
+
+.bottom_section{
+    background-color: #f8fafc;
+    text-align: center;
+    padding: 57px 0 69px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom_title{
+    font-size: 2em;
+}
+
+.bottom_description{
+    max-width: none ;
+    font-weight: 600;
+}
+
+.start_anly{
+    margin-bottom: auto;
+}
+
+.start_anly:hover{
     background: #6db2f7bd;
     color: #142624;
     text-decoration: none;
