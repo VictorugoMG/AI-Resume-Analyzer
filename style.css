@@ -59,47 +59,6 @@
     margin-right: 900px;
 }
 
-.myResumes{
-    font-style: 'Monserrat', sans-serif;
-    font-size: 16px;
-    color:rgb(51 65 85);
-    --tw-text-opacity: 1;
-    border: none;
-    background: none;
-    margin-right: 800px;
-    margin-left: -875px;
-}
-
-.jobSearch{
-    font-style: 'Monserrat', sans-serif;
-    font-size: 16px;
-    color:rgb(51 65 85) ;
-    --tw-text-opacity: 1;
-    border: none;
-    background: none;
-    margin-right: 700px;
-    margin-left: -775px;
-}
-
-.analytics{
-    font-style: 'Monserrat', sans-serif;
-    font-size: 16px;
-    color:rgb(51 65 85) ;
-    --tw-text-opacity: 1;
-    border: none;
-    background: none;
-    margin-right:600px;
-    margin-left: -675px
-}
-
-.darkMode{
-    border: none;
-    background: none;
-    color:rgb(51 65 85) ;
-    margin-right: 200px;
-    margin-left:-300px;
-}
-
 .sign_up:hover{
     background: #6db2f7bd;
     color: #142624;
@@ -276,6 +235,57 @@
 
 
 /* Dashboard Page */
+
+.dashboard{
+    font-style: 'Monserrat', sans-serif;
+    font-size: 16px;
+    color:rgb(51 65 85) ;
+    --tw-text-opacity: 1;
+    border: none;
+    background: none;
+    margin-right: 900px;
+}
+
+.myResumes{
+    font-style: 'Monserrat', sans-serif;
+    font-size: 16px;
+    color:rgb(51 65 85);
+    --tw-text-opacity: 1;
+    border: none;
+    background: none;
+    margin-right: 800px;
+    margin-left: -875px;
+}
+
+.jobSearch{
+    font-style: 'Monserrat', sans-serif;
+    font-size: 16px;
+    color:rgb(51 65 85) ;
+    --tw-text-opacity: 1;
+    border: none;
+    background: none;
+    margin-right: 700px;
+    margin-left: -775px;
+}
+
+.analytics{
+    font-style: 'Monserrat', sans-serif;
+    font-size: 16px;
+    color:rgb(51 65 85) ;
+    --tw-text-opacity: 1;
+    border: none;
+    background: none;
+    margin-right:600px;
+    margin-left: -675px
+}
+
+.darkMode{
+    border: none;
+    background: none;
+    color:rgb(51 65 85) ;
+    margin-right: 200px;
+    margin-left:-300px;
+}
 
 .dashboard_section{
     width: 896px;
