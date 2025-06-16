@@ -185,6 +185,42 @@
 
 /* Dashboard Page */
 
+.dashboard_layout{
+    width: 896px;
+    height: 36px;
+    display: flex;
+}
+
+.dashboard_main{
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.dashboard_title{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #0F172A;
+    margin: 0px 0px 8px;
+    font-weight: 700;   
+    background-color: rgb(248, 250, 252)
+ 
+}
+
+.dashboard_description{
+    font-family: 'Inter', sans-serif;
+    color: #475569;
+    font-size: 16px;
+}
+
+.sidenav{
+    width:255px;
+    height: 492px;
+    flex-shrink: 0;
+    display:flex;
+    flex-direction: column;
+    border-right: 2px solid #f8f7f7;
+}
+
 .dashboard{
     font-style: 'Monserrat', sans-serif;
     font-size: 16px;
@@ -236,27 +272,47 @@
     margin-left:-300px;
 }
 
-.dashboard_section{
-    width: 896px;
-    height: 36px;
-}
-.dashboard_title{
-    font-size: 30px;
+.dashBoard{
+    margin: 0px 0px 0px 12px;
+    padding: 8px 12px;
     font-family: 'Inter', sans-serif;
-    color: #0F172A;
-    margin: 0px 0px 8px;
-    font-weight: 700;
+    color: 334155;
+    border:none;
+    background: none;
 }
 
-.dashboard_description{
+.resumeAnalysis{
+    margin: 0px 0px 0px 12px;
+    padding: 8px 12px;
     font-family: 'Inter', sans-serif;
-    color: #475569;
-    font-size: 16px;
+    color: 334155;
+    border:none;
+    background: none;
 }
 
-.sidenav{
-    width:255px;
-    height: 492px;
-    background-color:#6b3838;
+.jobMatching{
+    margin: 0px 0px 0px 12px;
+    padding: 8px 12px;
+    font-family: 'Inter', sans-serif;
+    color: 334155;
+    border:none;
+    background: none;
 }
 
+.history{
+    margin: 0px 0px 0px 12px;
+    padding: 8px 12px;
+    font-family: 'Inter', sans-serif;
+    color: 334155;
+    border:none;
+    background: none;
+}
+
+.settings{
+    margin: 0px 0px 0px 12px;
+    padding: 8px 12px;
+    font-family: 'Inter', sans-serif;
+    color: 334155;
+    border:none;
+    background: none;
+}
